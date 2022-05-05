@@ -1,0 +1,23 @@
+module.exports.USER_STATUS = Object.freeze({   
+    USER_NAME_EXISTS         :"UserName already exists",
+    PASSWORD_EXISTS          :"Email already exists",
+    FAILURE_STATUS           :"failure",
+    SUCCESS_STATUS           :"success",
+    CREATED_SUCCESS          :"Your account successfully created",
+    NO_DATA                  :"No data Found",
+    PLEASE_SIGNUP            :"Please Signup",
+    CORRECT_USERNAME         :"PLease enter correct username",
+    LOGIN_SUCCESS            :"Login success",
+    LOGIN_FAILED             :"Login Failed",
+    LOGOUT_SUCCESS           :"Logout success",
+    PRODUCT_STATUS           :"Product added successfully",
+    ALL_PRODUCT_STATUS       :"Product Details Fetched successfully",
+    SINGLE_ITEM_STATUS       :"Single product Data Fetched Successfully", 
+    UPDATE_STATUS            :"Item Updated successfully" ,
+    DELETE_STATUS            :"Item deleted successfully "  ,
+    FILTER_STATUS            :"Item Filtered By Price Successfully",
+    CATEGORY_ADDED_STATUS    :"category added successfully",
+    CART_ITEMS_STATUS        :"Items from cart fetched successfully",
+    AUTHORIZATION_STATUS     :"Unauthorized Access" ,
+    TOKEN_STATUS             :"Invalid token"  
+  });
